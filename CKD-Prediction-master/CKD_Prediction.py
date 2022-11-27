@@ -19,7 +19,7 @@ def importdata():
     # Printing the dataset obseravtions
     return balance_data
  
-# Function to split the dataset
+# Function to split given dataset
 def splitdataset(balance_data):
  
     # Seperating the target variable
