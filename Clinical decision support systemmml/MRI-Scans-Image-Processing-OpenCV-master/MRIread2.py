@@ -29,6 +29,8 @@ for eachPat in patientWeHave:
         #cv2.imshow('image',img)
 
         #cv2.waitKey(0)
+        #print ("Dataset Shape: ")
+
 
         #cv2.destroyAllWindows()
 
