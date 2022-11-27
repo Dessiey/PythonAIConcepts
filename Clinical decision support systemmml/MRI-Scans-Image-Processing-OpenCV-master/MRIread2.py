@@ -80,6 +80,8 @@ for eachPat in patientWeHave:
 plt.imshow(frame,cmap='gray',interpolation='bicubic')
 
 #plt.plot([50,100],[80,100],'c',linewidth=5)
+   # print ("Dataset Shape: ", balance_data.shape)
+
 
 plt.show()
 
