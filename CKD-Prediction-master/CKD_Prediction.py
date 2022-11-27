@@ -14,7 +14,8 @@ def importdata():
     # Printing the dataswet shape
     print ("Dataset Lenght: ", len(balance_data))
     print ("Dataset Shape: ", balance_data.shape)
-     
+    print ("Dataset Shape: ", balance_data.shape)
+
     # Printing the dataset obseravtions
     return balance_data
  
