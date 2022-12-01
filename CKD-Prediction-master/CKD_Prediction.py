@@ -28,8 +28,8 @@ def splitdataset(balance_data):
     X = balance_data.values[:, 0:24]
     Y = balance_data.values[:, -1]
     
-    #print(X)
-    #print(Y)
+    print(X);
+    print(Y);
  
     # Spliting the dataset into train and test
     X_train, X_test, y_train, y_test = train_test_split( 
