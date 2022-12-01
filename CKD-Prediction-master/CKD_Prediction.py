@@ -17,6 +17,8 @@ def importdata():
     print ("Dataset Shape: ", balance_data.shape)
 
     # Printing the dataset obseravtions
+    # Replace null values "?" by numpy.NaN
+
     return balance_data
  
 # Function to split given dataset
