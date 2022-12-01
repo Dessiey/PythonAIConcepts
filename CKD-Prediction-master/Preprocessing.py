@@ -7,6 +7,8 @@ dataset = pd.read_csv("ckd.csv",header=0, na_values="?")
 dataset.replace("?", np.NaN)
 
 # Convert nominal values to binary values
+# Replace the values "?" by .NaN
+
 cleanup = {"Rbc":     {"normal": 1, "abnormal": 0},
            "Pc": {"normal": 1, "abnormal": 0},
            "Pcc": {"present": 1, "notpresent": 0},
