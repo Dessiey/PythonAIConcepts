@@ -21,7 +21,7 @@ def importdata():
 
     return balance_data
  
-# Function to split given dataset
+# Function to split given datasets
 def splitdataset(balance_data):
  
     # Seperating the target variable
