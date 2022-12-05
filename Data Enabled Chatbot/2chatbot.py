@@ -1,6 +1,6 @@
 
 import random
-greetings = ['hola', 'hello', 'hi', 'Hi', 'hey!','hey']
+greetings = ['hola', 'hello', 'hi', 'Hi', 'hey!','hey', 'HEY']
 random_greeting s= random.choice(greetings)
 question = ['How are you?','How are you doing?']
 responses = ['Okay',"I'm fine"]
