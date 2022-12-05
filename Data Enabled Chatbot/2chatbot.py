@@ -7,7 +7,7 @@ responses = ['Okay',"I'm fine"]
 random_response = random.choice(responses)
 
 while True:
-	userInput= input(">>> ")
+	userInput= input(">>> enter your inputs")
 	if userInput in greetings:
 		print(random_greeting)
 	elif userInput in question:
